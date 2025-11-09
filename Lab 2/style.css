@@ -1,0 +1,143 @@
+/* Font */
+body {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: #f4f7fb;
+    color: #333;
+}
+
+/* Header Styling*/
+header {
+    background-color: #0d47a1;
+    color: white;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+}
+
+/* Navigation Styling*/
+nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Sections General Styling */
+section {
+    background: white;
+    margin: 30px auto;
+    padding: 20px;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #0d47a1;
+    text-align: center;
+}
+
+/* About Styling*/
+#about img {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid rgb(6, 6, 87);
+}
+
+#about p {
+    text-align: center;
+}
+
+/* Table Styling*/
+
+table {
+  width: 100%;
+  padding: 20px;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th, td {
+  border: 1px solid #0d47a1;
+  padding: 8px;
+}
+
+th {
+  background-color: #0d47a1;
+  color: white;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  box-sizing: border-box; /* Ensures padding doesn’t exceed cell width */
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Projects Styling */
+.project {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+    background: #f9f9f9;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input,
+textarea {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+button {
+    background-color: #0d47a1;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1565c0;
+}
+
+
+/* Back to Top Button */
+
+#fixed {
+    display: inline-block;
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    background-color: #0d47a1;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
