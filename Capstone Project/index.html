@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wanderer Travel Agency</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Georgia&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!-- Skip Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Header / Navigation -->
+  <header>
+    <nav class="navbar" role="navigation" aria-label="Main Navigation">
+      <div class="logo">Wanderer</div>
+      <ul class="nav-links">
+        <li><a href="#destinations">Destinations</a></li>
+        <li><a href="#packages">Packages</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <main id="main-content">
+    <section class="hero" role="banner" aria-label="Explore the world with Wanderer">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <h1>Explore Incredible India with <br />Wanderer</h1>
+        <p>Your adventure starts here. Discover breathtaking destinations across India!</p>
+        <a href="#packages" class="btn btn-primary">Start Your Journey</a>
+      </div>
+    </section>
+
+    <!-- Destinations Section -->
+    <section id="destinations">
+      <h2>Popular Destinations</h2>
+      <div class="destinations-grid card-grid">
+
+        <article class="card">
+          <img src="images/goa.jpg" alt="Beautiful beach view in Goa">
+          <h3>Goa</h3>
+          <p class="price">₹15,000</p>
+          <p class="duration">5 Days</p>
+        </article>
+
+        <article class="card">
+          <img src="images/jaipur.jpg" alt="Hawa Mahal in Jaipur">
+          <h3>Jaipur</h3>
+          <p class="price">₹12,000</p>
+          <p class="duration">4 Days</p>
+        </article>
+
+        <article class="card">
+          <img src="images/kerala.jpg" alt="Backwaters in Kerala">
+          <h3>Kerala</h3>
+          <p class="price">₹18,000</p>
+          <p class="duration">6 Days</p>
+        </article>
+
+        <article class="card">
+          <img src="images/varanasi.jpg" alt="Ganges ghats in Varanasi">
+          <h3>Varanasi</h3>
+          <p class="price">₹10,000</p>
+          <p class="duration">3 Days</p>
+        </article>
+
+      </div>
+    </section>
+
+
+    <!-- Packages Section -->
+    <section id="packages">
+      <h2>Travel Packages</h2>
+      <div class="packages-grid card-grid">
+        <article class="card">
+          <h3>Adventure Package</h3>
+          <p>Explore mountains, rivers, and wildlife.</p>
+          <p class="price">₹20,000</p>
+        </article>
+        <article class="card">
+          <h3>Luxury Package</h3>
+          <p>5-star stays and curated experiences.</p>
+          <p class="price">₹35,000</p>
+        </article>
+        <article class="card">
+          <h3>Heritage Package</h3>
+          <p>Discover historical sites and cultural gems.</p>
+          <p class="price">₹25,000</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+      <h2>What Our Travelers Say</h2>
+      <div class="testimonials-grid card-grid">
+        <article class="card">
+          <p>"Wanderer made our Kerala trip unforgettable!"</p>
+          <h4>- Priya S.</h4>
+        </article>
+        <article class="card">
+          <p>"Excellent service and beautiful destinations."</p>
+          <h4>- Rahul K.</h4>
+        </article>
+        <article class="card">
+          <p>"Highly recommended for first-time travelers in India."</p>
+          <h4>- Anjali M.</h4>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact">
+      <h2>Get in Touch</h2>
+      <form class="contact-form" onsubmit="alert('Thank you! Your message has been submitted.'); return false;">
+        <div class="form-group">
+          <label for="name">Name*</label>
+          <input type="text" id="name" name="name" placeholder="Your Name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email*</label>
+          <input type="email" id="email" name="email" placeholder="Your Email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message*</label>
+          <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Wanderer Travel Agency. All rights reserved.</p>
+    <div class="social-icons">
+      <a href="#" aria-label="Facebook"><img src="images/facebook.svg" alt="Facebook Icon"></a>
+      <a href="#" aria-label="Instagram"><img src="images/instagram.svg" alt="Instagram Icon"></a>
+      <a href="#" aria-label="Twitter"><img src="images/twitter.svg" alt="Twitter Icon"></a>
+    </div>
+  </footer>
+</body>
+
+</html>
